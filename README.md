@@ -1,6 +1,8 @@
 # Reduca Open Source 🍎
 *Uma plataforma educacional moderna, social e plug-and-play.*
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Bem-vindo ao repositório Open Source do **Reduca**! Este projeto é um template completo (boilerplate) para criar plataformas educacionais, redes sociais escolares e ambientes de aprendizagem baseados em metodologias ativas.
 
 Desenvolvido com foco em **UI/UX Premium** (Glassmorphism, Dark Mode) e alta performance.
@@ -88,6 +90,12 @@ O projeto está configurado para ser publicado facilmente no GitHub Pages.
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`
 3. Se for publicar pelo seu terminal, basta rodar `npm run deploy`.
+
+---
+
+## ⚖️ Licença
+
+Este projeto está sob a licença **MIT**. Você é livre para usar, modificar, distribuir e até usar comercialmente. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 📝 **Créditos e História:** Desenvolvido originalmente pelo Prof. Sérgio como a evolução do *Teach&Learn Modernizado*. Focado em emancipação educacional e soberania digital.

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-color: #020617; /* Tailwind slate-950 */
+    --text-color: #f8fafc; /* Tailwind slate-50 */
+  }
+
+  body.light-theme {
+    /* Override Tailwind's default color variables for Light Theme (Cream) */
+    --color-slate-950: #FFFDF2;
+    --color-slate-900: #FFFDF2;
+    --color-slate-800: #fdfbf0;
+    --color-slate-700: #e5e5e5;
+    --color-slate-600: #a3a3a3;
+    --color-slate-500: #737373;
+    --color-slate-400: #404040;
+    --color-slate-300: #262626;
+    --color-slate-200: #171717;
+    --color-slate-100: #0a0a0a;
+    --color-slate-50: #000000;
+
+    --color-orange-300: #404040;
+    --color-orange-400: #262626;
+    --color-orange-500: #000000;
+    --color-orange-600: #000000;
+    
+    --bg-color: #FFFDF2;
+    --text-color: #000000;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    @apply antialiased min-h-screen transition-colors duration-300;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/10 shadow-sm transition-colors duration-300;
+}
+
+body.light-theme .glass {
+  @apply bg-white/50 border-black/5;
+}
+
+.glass-card {
+  @apply bg-slate-900/50 backdrop-blur-xl border border-white/10 rounded-2xl shadow-lg transition-colors duration-300;
+}
+
+body.light-theme .glass-card {
+  @apply bg-white/70 border-black/10;
+}
+
+.glass-input {
+  @apply bg-slate-800/50 border border-white/20 rounded-xl px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-orange-500 transition-all;
+}
+
+body.light-theme .glass-input {
+  @apply bg-white/60 border-black/20 text-black focus:ring-black;
+}

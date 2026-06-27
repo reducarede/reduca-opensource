@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573781513481",
+    "project_id": "reduc-959bc",
+    "storage_bucket": "reduc-959bc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573781513481:android:58c8893704558c9ec36fd8",
+        "android_client_info": {
+          "package_name": "com.escola.reduc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmRNn8vMuoRLeIF6fg1YK4-MdLe3uTlLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
